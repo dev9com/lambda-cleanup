@@ -1,3 +1,7 @@
 {
-    "name": "cost-watch"
+  "name": "cost-watch",
+  "dependencies": {
+    "async": "^1.0.0",
+    "moment": "^2.10.3"
+  }
 }
