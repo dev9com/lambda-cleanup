@@ -1,0 +1,7 @@
+[general]
+state_file = /var/awslogs/state/agent-state
+
+[aws_automation]
+log_group_name = aws_automation
+log_stream_name = {instance_id}
+file = /var/log/automation.log
